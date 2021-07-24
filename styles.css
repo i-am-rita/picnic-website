@@ -671,23 +671,6 @@ nav {
   color: var(--text-color);
 }
 
-/* Sponsors */
-.sponsor__container {
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  justify-content: center;
-  row-gap: 3.5rem;
-}
-
-.sponsor__img {
-  width: 90px;
-  filter: invert(0.7);
-  transition: var(var(--img-transition));
-}
-
-.sponsor__content:hover .sponsor__img {
-  filter: invert(0.5);
-}
-
 /* Footer */
 .footer__container {
   row-gap: 5rem;
